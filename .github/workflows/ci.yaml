@@ -20,4 +20,4 @@ jobs:
       - name: Run all tests
         uses: matlab-actions/run-command@v2
         with:
-          command: disp('fixed')
+          command: error('bam')
